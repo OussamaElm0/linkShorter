@@ -1,0 +1,25 @@
+:root {
+    --link-color: #198754
+}
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+h1 {
+    margin: 5%;
+}
+form {
+    position: relative;
+    width: 40%;
+    margin-top: 15%;
+}
+.link {
+    color: var(--link-color);
+    margin: 5%;
+}
+@media (max-width: 950px) {
+    form {
+        width: 85%;
+    }
+}
